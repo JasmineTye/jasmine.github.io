@@ -1,4 +1,4 @@
-const url = 'http://localhost:8000';
+const url = 'https://hosting-sample-backend.herokuapp.com/';
 document.addEventListener('DOMContentLoaded', function () {
     const urlDom = document.getElementById('backend-url');
     urlDom.innerHTML = url;
